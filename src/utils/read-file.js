@@ -5,7 +5,6 @@ const { downloadImg } = require('./download-img')
 
 const readInImg = (wallData, dirPath) => {
   const bagpipe = new Bagpipe(config.PIPE_COUNT)
-
   let count = 0
   return new Promise((resolve, reject) => {
     for (let i = 0; i < wallData.length; i++) {
